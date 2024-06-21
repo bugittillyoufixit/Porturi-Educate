@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chestionar Livreare și Recepția Mărfurilor</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h2>ID Angajat: </h2><input type="text" id="employee-id" placeholder="Introduceți ID-ul angajatului" maxlength="4" required>
+        <h2 class="remaining-time">Timp Rămas:</h2><div id="timer">10:00</div>
+        <button id="exit-button">X</button>
+    </div>
+    <form id="quiz-form">
+        <div id="questions-container"></div>
+        <br>
+        <button type="submit">Trimite</button>
+    </form>
+</body>
+</html>
